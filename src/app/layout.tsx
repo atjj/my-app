@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: "Open graph description",
     images: [
       {
-        url: "/books.jpg",
+        url: "https://seoexample.vercel.app/books.jpg",
         width: 1200,
         height: 630,
       },
