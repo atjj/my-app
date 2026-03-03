@@ -2,13 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "My app title example",
+  title: {
+    template: "%s | Seo example project",
+    default: "My app main title example",
+  },
   description: "My app description example test)",
   keywords: "JS, NextJs, React, Learning",
   openGraph: {
     type: "website",
     title: "It is open graph title",
-    url: "https://www.google.com/",
+    url: "https://my-appp-nu.vercel.app/",
     description: "Open graph description",
     images: [
       {
